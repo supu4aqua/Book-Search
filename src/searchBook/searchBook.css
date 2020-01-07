@@ -1,0 +1,77 @@
+label {
+  font-weight: bold;
+  padding-right: 15px;
+  font-size: 20px;
+  text-align: right;
+  clear: both;
+  margin: auto;
+}
+
+button {
+  border-radius: 4px;
+  padding: 5px 5px;
+  margin: auto;
+  /*margin: 8px 0;*/
+  border: 1px solid blue;
+  cursor: pointer;
+
+}
+
+input{
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto;
+    padding-left: 15px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+select {
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+   margin-right: 20px;
+   height: 20px;
+   line-height:26px;
+   width: 90px;
+}
+
+form {
+  margin: auto;
+/*  height: 150px;*/
+  text-align: center;
+  border: 1px solid black;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  height: 100px;
+  margin: auto;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+}
+/*
+.search {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: grey;
+  height: 100px;
+}*/
+.search, .filter {
+  height: 60px;
+  padding-top: 20px;
+}
+
+.search {
+  background-color: grey;
+}
+
+.filter {
+  background-color: darkgrey;
+}

@@ -1,0 +1,30 @@
+h1, p {
+  font-family: sans-serif;
+}
+
+.book-details {
+  display: flex;
+  /*justify-content: space-around;*/
+  margin: 0 auto;
+
+}
+
+.book-details img {
+  margin: 30px;
+
+}
+
+.book-details p {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+/*.description{
+
+  margin-left:auto;
+}*/
